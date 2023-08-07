@@ -12,10 +12,14 @@ const container = document.getElementById("container"); // "Traemos" utilizando 
  */
 function showData(dataArray) {
   // El for itera sobre los elementos del array
-  for (const item of dataArray) {
+  for (const item of dataArray.students) {
     // En la siguiente línea se utilizan "backticks" para armar el String. Más info => https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals
     container.innerHTML += `<p> ${item.name} ${item.lastname} </p>`; // Se concatena cada párrafo de la manera que queremos mostrarlo al innerHTML del contenedor
   }
 }
 
 // Escribe el código necesario para realizar el fetch al archivo con los datos y mostrar los estudiantes con la función showData
+fetch(DATA_URL) 
+.then(response => response.json()) 
+.then(data => showData(data)) 
+.catch(error => console.error("error fetchig data:", error));
