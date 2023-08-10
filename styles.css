@@ -3,7 +3,7 @@
     display: table;
     margin: 0px auto 0px auto;
     padding: 1px;
-background-image: url(https://as1.ftcdn.net/v2/jpg/03/27/14/52/1000_F_327145213_UKxHHclbPGKpPScezGAeIlxU8czZ1A1M.jpg);
+background-image: url('https://as1.ftcdn.net/v2/jpg/03/27/14/52/1000_F_327145213_UKxHHclbPGKpPScezGAeIlxU8czZ1A1M.jpg');
 background-size: contain;
 color: #f3d80b;
 }
@@ -22,7 +22,7 @@ color: #21d605;
 }
 
 #lista{
-    background-image:url(https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/03/AI-Science_Lede_Fullwidth.jpg) ;
+    background-image:url('https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/03/AI-Science_Lede_Fullwidth.jpg') ;
     display: table;
     margin: 0px auto 0px auto;
     padding: 10px;
@@ -37,6 +37,6 @@ background-size: contain;
 }
 
 body {
-background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/06/github.jpg?tf=1920x);
+background-image: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/06/github.jpg?tf=1920x');
 background-size: contain;
 }
