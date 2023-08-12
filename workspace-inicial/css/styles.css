@@ -209,16 +209,17 @@ color: azure;
 .formus{  
   padding: 5px 10px;
 border-radius: 5px;
-border: 1px
+border: 3px ;
+border-color: rgb(182, 181, 181);
 }
 
-
-
 label{font-size: smaller;
-padding: 5px 5px;}
-
+padding: 5px 5px;
+}
 
 #botton{background-color: #0087F7;
 padding: 5px 80px;
 border-radius: 10px;
-border: 5px;}
+border: 5px;
+color: white;
+}
