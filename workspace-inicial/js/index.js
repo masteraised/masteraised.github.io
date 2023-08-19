@@ -21,7 +21,7 @@ function checkAuthentication() {
     
     // Si el usuario no está autenticado (isLoggedIn es null o falso)
     if (!isLoggedIn) {
-        window.location.href = "https://masteraised.github.io/workspace-inicial/login.html"; // Redirigimos al usuario a la página de inicio de sesión
+        window.location.href = "login.html"; // Redirigimos al usuario a la página de inicio de sesión
     }
 }
 
@@ -31,7 +31,7 @@ window.onload = checkAuthentication;
 
 function cerrarSesion() {
     localStorage.removeItem("isLoggedIn"); // Eliminar el valor de inicio de sesión
-    window.location.href = "https://masteraised.github.io/workspace-inicial/login.html"; // Redirigir al inicio de sesión
+    window.location.href = "login.html"; // Redirigir al inicio de sesión
   }
 
   // Obtén los elementos necesarios
