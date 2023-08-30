@@ -16,6 +16,9 @@ function login() {
     // Guardamos la información de la sesión en el almacenamiento local
     // Establecemos la clave "isLoggedIn" con el valor "true"
     localStorage.setItem("isLoggedIn", "true");
+
+    // Almacenamos el nombre de usuario
+    localStorage.setItem("username", username);   
     
     // Redireccionamos a la portada
     window.location.href = "index.html";
@@ -38,6 +41,3 @@ document.getElementById("password").addEventListener("keydown", function(event) 
 });
 
 
-// Llama a la función actualizarBoton cada vez que los campos cambian
-document.getElementById("username").addEventListener("input", actualizarBoton);
-document.getElementById("password").addEventListener("input", actualizarBoton);
