@@ -48,12 +48,15 @@ document.addEventListener('DOMContentLoaded', () => {
         greyscaleDiv.innerHTML = '';
     }
 
-//Funcion para realizar fetch con color elegido por usuario y llenar divs
+    //Funcion para realizar fetch con color elegido por usuario y llenar divs con los colores correspondientes
     function searchColor(consulta) {
+        //Convertir input a minusculas para que funcione correctamente
+        consulta = consulta.toLowerCase();
+        
         const url = `https://cors-anywhere.herokuapp.com/https://color.serialif.com/${consulta}`;
         fetchData(url)
             .then((data) => {
-         setDivBackground(baseDiv, data.base.hex.value);
+                setDivBackground(baseDiv, data.base.hex.value);
                 setDivBackground(complementaryDiv, data.complementary.hex.value);
                 setDivBackground(greyscaleDiv, data.grayscale.hex.value);
             })
@@ -64,3 +67,4 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 });
+
