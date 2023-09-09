@@ -1,4 +1,32 @@
+/* CSS to center an <li> element within a <div> */
+#suggestionDiv {
+    display: flex;
+    justify-content: center; /* Horizontally center the <li> within the <div> */
+    align-items: center; /* Vertically center the <li> within the <div> */
+    height: 50px; /* Set the height of the <div> */
+}
+.lista:hover{
+    background-color: rgb(255, 10, 6);
+  }
+
+  #suggestionList {
+    list-style: none; /* Remove list bullet points */
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 30%; /* Match the width to the input bar */
+    overflow: auto;
+}
+#contenedor {
+    width: 20%;
+}
+
+
+
+/* CSS for the background image */
 body {
     background-image: url("mew.gif");
     background-size: cover;
+    position: relative;
 }
