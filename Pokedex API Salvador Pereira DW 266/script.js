@@ -5,22 +5,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnClear = document.getElementById('btnClear');
     const suggestionList = document.getElementById('suggestionList');
 
-    // Function to display suggestions
+    // Funcion para mostrar sugerencias
     function displaySuggestions(consulta) {
         // Clear the suggestion list
         suggestionList.innerHTML = '';
 
-        // Hide the suggestion list if the input is empty
+        // Ocultar sugerencia si el input esta vacio
         if (userInput.value.trim() === '') {
             suggestionList.style.display = 'none';
             return;
         }
 
-        // Create a new <ul> element
+        // Crear elemento lista padre
         const suggestionUl = document.createElement('ul');
         suggestionUl.className = 'list-group list-inline mx-auto justify-content-center';
 
-        // Fetch a list of Pokémon names
+        // Fetch a la lista de Pokemon
         const url = 'https://pokeapi.co/api/v2/pokemon/?limit=1000';
         fetch(url)
             .then((response) => response.json())
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 data.results.forEach((pokemon) => {
                     const name = pokemon.name;
                     if (name.includes(consulta)) {
-                        // Create a list item for each matching Pokémon name
+                        // Crear un item lista para cada Pokemon
                         const listItem = document.createElement('li');
                         listItem.textContent = name;
                         listItem.className = 'list-inline-item lista';
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
 
-                // Append the <ul> to the suggestion list if there are suggestions
+                // Agregar el elemento lista a la lista padre si es que lo hay
                 if (suggestionUl.childElementCount > 0) {
                     suggestionList.appendChild(suggestionUl);
                     suggestionList.style.display = 'block';
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    // Event listener for user input changes
+    // Event listener por cambios en el input
     userInput.addEventListener('input', () => {
         const consulta = userInput.value.trim();
         displaySuggestions(consulta);
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         divCont.innerHTML = '';
     }
 
-    // Event listener for the clear button
+    // Event listener para el boton borrar
     btnClear.addEventListener('click', () => {
         userInput.value = '';
         clearDivs();
@@ -102,10 +102,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const consulta = userInput.value.trim();
         searchPokemon(consulta);
         clearDivs();
-        suggestionList.style.display = 'none'; // Clear suggestions when performing a search
+        suggestionList.style.display = 'none'; // Limpiar sugerencias al hacer una busqueda
     });
 
-    // Event listener para que tambien funcione al presionar ENTER o borrar (delete/backspace)
+    // Event listener para que tambien funcione al presionar ENTER o borrar
     userInput.addEventListener('keydown', (event) => {
         if (event.key === 'Enter') {
             const consulta = userInput.value.trim();
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const consulta = userInput.value.trim();
             displaySuggestions(consulta);
 
-            if (consulta === ' ') {
+            if (consulta === '') {
                 suggestionList.style.display = 'none';
             }
         }
