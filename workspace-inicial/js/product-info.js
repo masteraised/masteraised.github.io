@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Una vez que obtenemos la información del producto, la mostramos en la página
     const productInfoContainer = document.getElementById("product-info");
-    productInfoContainer.classList.add("card", "rounded-3", "m-4", "shadow");
+    productInfoContainer.classList.add("card", "rounded-3", "m-4", "shadow", "darkModeProduct");
 
     // Creamos un elemento div para el carrusel
     const carouselContainer = document.createElement("div");
@@ -37,10 +37,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     const carouselInner = document.createElement("div");
     carouselInner.classList.add("carousel-inner");
 
+
     // Iteramos a través del array 'images' y creamos elementos 'div' para cada imagen
     product.images.forEach((imageUrl, index) => {
       const carouselItem = document.createElement("div");
       carouselItem.classList.add("carousel-item");
+
 
       if (index === 0) {
         carouselItem.classList.add("active");
@@ -78,7 +80,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const productSoldElement = document.createElement("p");
     productSoldElement.textContent = `Cantidad de productos vendidos: ${product.soldCount}`;
-    productSoldElement.classList.add("card-text", "text-secondary", "mb-4");
+    productSoldElement.classList.add("card-text", "text-secondary", "mb-4", "darkModeSold");
 
     // Agregamos los elementos de texto al contenedor de información del producto
     productInfoContainer.appendChild(productNameElement);
@@ -122,13 +124,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Creamos una cabecera para los comentarios
     const commentsHeader = document.createElement("h3");
     commentsHeader.textContent = "Comentarios de los usuarios";
-    commentsHeader.classList.add("text-primary");
+    commentsHeader.classList.add("text-primary", "darkModeTitle");
     commentsSection.appendChild(commentsHeader);
 
     // Iteramos sobre los comentarios y los mostramos
     comments.forEach((comment) => {
       const commentCard = document.createElement("div");
-      commentCard.classList.add("card", "mb-3", "w-50", "mx-auto");
+      commentCard.classList.add("card", "mb-3", "w-50", "mx-auto", "darkModeComments");
 
       const commentCardBody = document.createElement("div");
       commentCardBody.classList.add("card-body");
@@ -157,7 +159,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       const commentDescription = document.createElement("p");
       commentDescription.textContent = comment.description;
-      commentDescription.classList.add("m-4", "text-secondary");
+      commentDescription.classList.add("m-4",  "darkModeTextComments");
 
       const commentRating = createStarRating(comment.score); // Llama a la función para crear las estrellas
 
@@ -182,7 +184,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Título para la sección de comentarios
     const commentTitle = document.createElement("h3");
     commentTitle.textContent = "Deja un comentario";
-    commentTitle.classList.add("text-primary");
+    commentTitle.classList.add("text-primary", "darkModeTitle");
     commentFormContainer.appendChild(commentTitle);
 
     // Formulario para el comentario y la calificación
@@ -194,7 +196,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       const commentText = document.getElementById("comment-text").value;
       const commentRating = document.getElementById("comment-rating").value;
 
-
       // Validamos que se haya ingresado un comentario
       if (!commentText) {
         alert("Por favor, ingrese un comentario.");
@@ -205,8 +206,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       const newComment = {
         comment: commentText,
         score: parseInt(commentRating),
-        user: username, 
-        dateTime: new Date().toLocaleString(), 
+        user: username,
+        dateTime: new Date().toLocaleString(),
       };
 
       // Agregamos el nuevo comentario a la lista existente
@@ -215,7 +216,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       // Almacenamos la lista actualizada en el almacenamiento local
       localStorage.setItem("comments", JSON.stringify(comments));
 
-      // Limpiamos el formulario 
+      // Limpiamos el formulario
       commentForm.reset();
 
       // Actualizamos la vista de los comentarios
@@ -313,7 +314,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Botón para enviar el comentario
     const submitButton = document.createElement("button");
     submitButton.type = "submit";
-    submitButton.classList.add("btn", "btn-primary", "mt-2", "mb-4");
+    submitButton.classList.add("btn", "btn-primary", "mt-2", "mb-4", "darkModeButton");
     submitButton.textContent = "Enviar comentario";
 
     // Agregar elementos al formulario
@@ -329,7 +330,73 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Agregar sección de comentarios al contenedor de información del producto
     productInfoContainer.appendChild(commentFormContainer);
 
-    // Cargar comentarios almacenados en el almacenamiento local 
+    // Mostrar los productos relacionados
+    const relatedProductsSection = document.createElement("div");
+    relatedProductsSection.classList.add("mt-4");
+
+    // Título para la sección de productos relacionados
+    const relatedProductsHeader = document.createElement("h3");
+    relatedProductsHeader.textContent = "Productos Relacionados";
+    relatedProductsHeader.classList.add("text-primary", "darkModeTitle");
+    relatedProductsSection.appendChild(relatedProductsHeader);
+
+    // Creamos un contenedor para los productos relacionados
+    const relatedProductsContainer = document.createElement("div");
+    relatedProductsContainer.classList.add(
+      "d-flex",
+      "justify-content-center",
+      "flex-wrap",
+      "m-3",
+      "relatedProductsStyles"
+    );
+
+    // Iteramos a través de los productos relacionados y los mostramos
+    product.relatedProducts.forEach(async (relatedProduct) => {
+      // Creamos un div para cada producto relacionado
+      const relatedProductCard = document.createElement("div");
+      relatedProductCard.classList.add("card", "m-3", "w-25", "text-center");
+
+      // Agregamos un controlador de eventos para cada producto relacionado
+      relatedProductCard.addEventListener("click", () => {
+        // Guardamos el ID del producto relacionado en el almacenamiento local
+        localStorage.setItem("selectedProductId", relatedProduct.id);
+
+        // Redirigimos al usuario a la página de información del producto relacionado
+        window.location.href = "product-info.html";
+      });
+
+      // Creamos el cuerpo del producto relacionado
+      const relatedProductCardBody = document.createElement("div");
+      relatedProductCardBody.classList.add("card-body");
+
+      // Agregamos el nombre del producto relacionado
+      const relatedProductName = document.createElement("h5");
+      relatedProductName.textContent = relatedProduct.name;
+      relatedProductName.classList.add("card-title");
+
+      // Agregamos la imagen del producto relacionado
+      const relatedProductImage = document.createElement("img");
+      relatedProductImage.src = relatedProduct.image;
+      relatedProductImage.classList.add("card-img-top");
+
+      // Agregamos el nombre y la imagen al cuerpo del producto relacionado
+      relatedProductCardBody.appendChild(relatedProductName);
+      relatedProductCardBody.appendChild(relatedProductImage);
+
+      // Agregamos el cuerpo del producto relacionado al div del producto
+      relatedProductCard.appendChild(relatedProductCardBody);
+
+      // Agregamos el div del producto relacionado al contenedor de productos relacionados
+      relatedProductsContainer.appendChild(relatedProductCard);
+    });
+
+    // Agregamos el contenedor de productos relacionados a la sección de productos relacionados
+    relatedProductsSection.appendChild(relatedProductsContainer);
+
+    // Agregamos la sección de productos relacionados al contenedor de información del producto
+    productInfoContainer.appendChild(relatedProductsSection);
+
+    // Cargar comentarios almacenados en el almacenamiento local
     if (localStorage.getItem("comments")) {
       comments = JSON.parse(localStorage.getItem("comments"));
       updateCommentsView(); // Actualizar la vista de los comentarios
