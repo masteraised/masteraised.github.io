@@ -322,7 +322,7 @@ body.dark-mode .mark-done-button{
 }
 
 body.dark-mode .mark-done-button:hover{
-    background-color: rgb(179, 179, 179) !important;
+    background-color: rgb(78, 162, 105) !important;
 }
 
 body.dark-mode #addTaskButton{

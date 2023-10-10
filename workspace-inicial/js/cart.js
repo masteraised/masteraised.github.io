@@ -8,12 +8,12 @@ function createQueue(element) {
         <td><img src="${
           element.image
         }" class="miniatura" class="img-thumbnail" class="img-fluid"></td>
-        <td>${element.name}</td>
-        <td class="costo-cell">${element.unitCost} ${element.currency}</td>
+        <td class="text-success"> ${element.name}</td>
+        <td class="costo-cell text-success">${element.unitCost} ${element.currency}</td>
         <td><input type="number" value="${
           element.count
         }" class="col-sm-2 form-control-sm cantidad-input"  min="0"></td>
-        <td class="subtotal-cell">${element.unitCost * element.count} ${
+        <td class="subtotal-cell text-success">${element.unitCost * element.count} ${
     element.currency
   }</td>
     `;
