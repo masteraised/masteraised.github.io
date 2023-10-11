@@ -150,7 +150,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         "mb-3",
         "w-50",
         "mx-auto",
-        "darkModeComments"
+        "darkModeComments",
+        "responsiveComments"
       );
 
       const commentCardBody = document.createElement("div");
@@ -200,7 +201,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Agregamos sección para ingresar comentarios y calificación
     const commentFormContainer = document.createElement("div");
     commentFormContainer.id = "comment-form";
-    commentFormContainer.classList.add("mt-4", "w-50", "mx-auto");
+    commentFormContainer.classList.add("mt-4", "w-50", "mx-auto", "responsiveForm");
 
     // Título para la sección de comentarios
     const commentTitle = document.createElement("h3");
@@ -269,8 +270,9 @@ document.addEventListener("DOMContentLoaded", async () => {
           "mb-3",
           "w-50",
           "mx-auto",
-          "darkModeComments"
-        );
+          "darkModeComments",
+        "responsiveComments"
+          );
 
         const commentCardBody = document.createElement("div");
         commentCardBody.classList.add("card-body");
@@ -402,7 +404,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     product.relatedProducts.forEach(async (relatedProduct) => {
       // Creamos un div para cada producto relacionado
       const relatedProductCard = document.createElement("div");
-      relatedProductCard.classList.add("card", "m-3", "w-25", "text-center");
+      relatedProductCard.classList.add("card", "m-3", "w-25", "text-center", "responsiveTest");
 
       // Agregamos un controlador de eventos para cada producto relacionado
       relatedProductCard.addEventListener("click", () => {
