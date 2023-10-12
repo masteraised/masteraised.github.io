@@ -1,0 +1,29 @@
+#suggestionDiv {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50px; 
+}
+.lista:hover{
+    background-color: rgb(255, 10, 6);
+  }
+
+  #suggestionList {
+    list-style: none; 
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 35%; 
+    overflow: auto;
+}
+#contenedor {
+    width: 35%;
+}
+
+
+body {
+    background-image: url("mew.gif");
+    background-size: cover;
+    position: relative;
+}

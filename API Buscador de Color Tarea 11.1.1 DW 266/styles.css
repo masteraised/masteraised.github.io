@@ -1,0 +1,18 @@
+/*Cambio de color de fondo*/
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+
+
+/* Centrado de divs*/
+.divBack {
+
+    width: 60vh;
+    height: 10vh;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
