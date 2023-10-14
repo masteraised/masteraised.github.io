@@ -59,6 +59,8 @@
 }
 
 @media (max-width: 1200px) {
+
+  /*Creacion de estilo para contenido responsivo mediante media query*/
   .responsiveComment {
     display: flex !important;
     justify-content: center !important;
@@ -91,11 +93,12 @@
 
 
 
-@media (min-width: 250px) and (max-width: 761px) {
+@media (min-width: 250px) and (max-width: 761px) { /*Media query responsive para comentarios de product-info*/
+  
 
   .responsiveTest,
   .responsiveComments,
-  .responsiveForm{
+  .responsiveForm {
     width: 80% !important;
 
   }

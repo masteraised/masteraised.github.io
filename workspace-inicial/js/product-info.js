@@ -271,8 +271,8 @@ document.addEventListener("DOMContentLoaded", async () => {
           "w-50",
           "mx-auto",
           "darkModeComments",
-        "responsiveComments"
-          );
+          "responsiveComments"
+        );
 
         const commentCardBody = document.createElement("div");
         commentCardBody.classList.add("card-body");
@@ -415,36 +415,36 @@ document.addEventListener("DOMContentLoaded", async () => {
         window.location.href = "product-info.html";
       });
 
-            // Creamos el cuerpo del producto relacionado
-            const relatedProductCardBody = document.createElement("div");
-            relatedProductCardBody.classList.add("card-body", "w-100", "bg-dark");
+      // Creamos el cuerpo del producto relacionado
+      const relatedProductCardBody = document.createElement("div");
+      relatedProductCardBody.classList.add("card-body", "w-100", "bg-dark");
 
-            // Agregamos el nombre del producto relacionado
-            const relatedProductName = document.createElement("h5");
-            relatedProductName.textContent = relatedProduct.name;
-            relatedProductName.classList.add("card-title", "text-info");
+      // Agregamos el nombre del producto relacionado
+      const relatedProductName = document.createElement("h5");
+      relatedProductName.textContent = relatedProduct.name;
+      relatedProductName.classList.add("card-title", "text-info");
 
-            // Agregamos la imagen del producto relacionado
-            const relatedProductImage = document.createElement("img");
-            relatedProductImage.src = relatedProduct.image;
-            relatedProductImage.classList.add("card-img-top");
+      // Agregamos la imagen del producto relacionado
+      const relatedProductImage = document.createElement("img");
+      relatedProductImage.src = relatedProduct.image;
+      relatedProductImage.classList.add("card-img-top");
 
-            // Agregamos el nombre y la imagen al cuerpo del producto relacionado
-            relatedProductCardBody.appendChild(relatedProductName);
-            relatedProductCardBody.appendChild(relatedProductImage);
+      // Agregamos el nombre y la imagen al cuerpo del producto relacionado
+      relatedProductCardBody.appendChild(relatedProductName);
+      relatedProductCardBody.appendChild(relatedProductImage);
 
-            // Agregamos el cuerpo del producto relacionado al div del producto
-            relatedProductCard.appendChild(relatedProductCardBody);
+      // Agregamos el cuerpo del producto relacionado al div del producto
+      relatedProductCard.appendChild(relatedProductCardBody);
 
-            // Agregamos el div del producto relacionado al contenedor de productos relacionados
-            relatedProductsContainer.appendChild(relatedProductCard);
-          });
+      // Agregamos el div del producto relacionado al contenedor de productos relacionados
+      relatedProductsContainer.appendChild(relatedProductCard);
+    });
 
-          // Agregamos el contenedor de productos relacionados a la sección de productos relacionados
-          relatedProductsSection.appendChild(relatedProductsContainer);
+    // Agregamos el contenedor de productos relacionados a la sección de productos relacionados
+    relatedProductsSection.appendChild(relatedProductsContainer);
 
-          // Agregamos la sección de productos relacionados al contenedor de información del producto
-          productInfoContainer.appendChild(relatedProductsSection);
+    // Agregamos la sección de productos relacionados al contenedor de información del producto
+    productInfoContainer.appendChild(relatedProductsSection);
 
     // Cargar comentarios almacenados en el almacenamiento local
     if (localStorage.getItem("comments")) {
