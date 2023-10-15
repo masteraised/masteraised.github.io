@@ -92,9 +92,8 @@
 }
 
 
+@media (min-width: 250px) and (max-width: 761px) {   /*Media query responsive para comentarios de product-info*/
 
-@media (min-width: 250px) and (max-width: 761px) { /*Media query responsive para comentarios de product-info*/
-  
 
   .responsiveTest,
   .responsiveComments,
