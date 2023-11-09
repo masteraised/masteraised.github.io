@@ -1,0 +1,27 @@
+body {
+    background-color: #fff;
+    color: #212529;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #212529;
+    color: #fff;
+}
+
+header.dark-mode {
+    background-color: #343a40;
+}
+
+/* Add any additional dark mode specific styles here */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
