@@ -1,0 +1,722 @@
+1
+00:00:00,566 --> 00:00:01,933
+sí, este soy yo
+
+2
+00:00:02,100 --> 00:00:04,366
+quizás te preguntes, cómo llegue hasta aquí?
+
+3
+00:00:04,466 --> 00:00:05,200
+bueno, esta es mi historia
+
+4
+00:00:12,300 --> 00:00:13,733
+me fui muy para atrás
+
+5
+00:00:13,900 --> 00:00:14,366
+mejor
+
+6
+00:00:14,366 --> 00:00:15,533
+empecemos por algo más cercano
+
+7
+00:00:16,333 --> 00:00:17,600
+terminé el liceo en 2013
+
+8
+00:00:17,666 --> 00:00:19,566
+con orientación física matemática
+
+9
+00:00:19,600 --> 00:00:21,333
+ingresé a la  Facultad de Ingenieria
+
+10
+00:00:21,333 --> 00:00:22,700
+en 2015 ( me tome un año libre de estudios)
+
+11
+00:00:22,833 --> 00:00:24,366
+fui durante 1 año y casi medio,
+
+12
+00:00:24,566 --> 00:00:25,433
+antes de abandonar
+
+13
+00:00:25,666 --> 00:00:26,800
+por diferentes circunstancias de la vida
+
+14
+00:00:26,933 --> 00:00:27,633
+durante este tiempo
+
+15
+00:00:27,700 --> 00:00:29,533
+descubrí lo mucho que me gusta sacar fotos
+
+16
+00:00:29,733 --> 00:00:31,800
+y lo estudié y practiqué mucho con mi cuenta
+
+17
+00:00:31,933 --> 00:00:32,800
+así como también
+
+18
+00:00:32,800 --> 00:00:34,300
+el uso de internet y las redes sociales
+
+19
+00:00:34,300 --> 00:00:35,533
+para generar una comunidad
+
+20
+00:00:35,600 --> 00:00:36,766
+incluso haciendo algunos
+
+21
+00:00:36,900 --> 00:00:38,866
+estudios más profundos sobre esto
+
+22
+00:00:38,866 --> 00:00:39,800
+aunque me dediqué a estos temas
+
+23
+00:00:39,800 --> 00:00:41,233
+solo por la razón de que me gustaron
+
+24
+00:00:41,400 --> 00:00:41,900
+en la vida
+
+25
+00:00:41,900 --> 00:00:43,833
+la parte de generar ingresos es muy importante
+
+26
+00:00:44,033 --> 00:00:46,100
+y como que estas disciplinas que son las que me gustan
+
+27
+00:00:46,100 --> 00:00:46,766
+no lo logré
+
+28
+00:00:46,766 --> 00:00:47,000
+siempre
+
+29
+00:00:47,000 --> 00:00:49,500
+en paralelo me estuve dedicando 
+a trabajos físicos
+
+30
+00:00:49,733 --> 00:00:51,300
+como por ejemplo de peón en obra
+
+31
+00:00:51,533 --> 00:00:53,433
+lavando pisos atendiendo lugares
+
+32
+00:00:53,433 --> 00:00:55,466
+lavando platos atención al cliente
+
+33
+00:00:55,533 --> 00:00:57,000
+en fin lo que saliera
+
+34
+00:00:57,033 --> 00:00:59,033
+para poder seguir viviendo básicamente
+
+35
+00:00:59,333 --> 00:01:00,400
+pero no era algo que disfrutara haciendo
+
+36
+00:01:00,700 --> 00:01:01,766
+lo que me dejaron estos trabajos
+
+37
+00:01:01,866 --> 00:01:04,000
+es confirmar lo que no quiero para mi vida
+
+38
+00:01:04,166 --> 00:01:07,433
+y que me gustaría mucho que mi trabajo y mi sustento
+
+39
+00:01:07,466 --> 00:01:09,033
+sea a través de una computadora
+
+40
+00:01:09,033 --> 00:01:09,933
+ya que de esta manera
+
+41
+00:01:09,933 --> 00:01:11,833
+es posible alcanzar niveles de libertad
+
+42
+00:01:12,166 --> 00:01:13,633
+cómo poder viajar por el mundo
+
+43
+00:01:13,633 --> 00:01:14,966
+o trabajar de cualquier parte
+
+44
+00:01:15,100 --> 00:01:17,666
+manejar más flexiblemente tus horarios entre otras
+
+45
+00:01:19,966 --> 00:01:22,466
+buscando disciplinas en las que pudiera sentirme cómodo
+
+46
+00:01:22,533 --> 00:01:23,600
+llegué al desarrollo web
+
+47
+00:01:23,933 --> 00:01:24,566
+ya que lo sentí
+
+48
+00:01:24,566 --> 00:01:26,166
+muy conectado con el mundo del internet
+
+49
+00:01:26,166 --> 00:01:27,233
+y de las redes sociales
+
+50
+00:01:27,400 --> 00:01:28,600
+e incluso con la fotografía
+
+51
+00:01:28,733 --> 00:01:30,433
+pudiendo integrarse entre sí muy bien
+
+52
+00:01:31,733 --> 00:01:33,233
+por lo tanto como te imaginarás
+
+53
+00:01:33,266 --> 00:01:35,366
+cuando conocí el jap, me vino a la perfección
+
+54
+00:01:35,666 --> 00:01:38,366
+en ese momento me anoté lo más rápido posible
+
+55
+00:01:38,466 --> 00:01:40,266
+y hoy puedo decir que lo estoy completando
+
+56
+00:01:40,366 --> 00:01:41,566
+al menos por ahora el nivel uno
+
+57
+00:01:41,700 --> 00:01:42,500
+y vamos por el 2
+
+58
+00:01:42,533 --> 00:01:43,766
+para el proyecto ocupacional
+
+59
+00:01:43,800 --> 00:01:45,633
+una parte muy importante del curso
+
+60
+00:01:45,800 --> 00:01:47,333
+y en especial de competencias transversales
+
+61
+00:01:47,333 --> 00:01:48,133
+me definí algunos
+
+62
+00:01:48,133 --> 00:01:49,000
+nuevos objetivos
+
+63
+00:01:49,000 --> 00:01:49,466
+y otros
+
+64
+00:01:49,466 --> 00:01:51,466
+que ya tenía bastante claros 
+desde hace un tiempo
+
+65
+00:01:51,500 --> 00:01:54,766
+como primer objetivo,
+puntual cercano y concreto
+
+66
+00:01:54,800 --> 00:01:57,400
+consideré que era bastante 
+importante apuntar al menos
+
+67
+00:01:57,433 --> 00:02:00,000
+un 85% de aprobación técnica
+
+68
+00:02:00,066 --> 00:02:02,166
+en la parte final de fase  2 
+
+69
+00:02:02,166 --> 00:02:03,566
+veremos este miércoles si se cumple
+
+70
+00:02:03,666 --> 00:02:04,533
+como segundo objetivo
+
+71
+00:02:04,700 --> 00:02:06,033
+a corto mediano plazo
+
+72
+00:02:06,166 --> 00:02:08,533
+fijé la necesidad de
+conseguir un trabajo remoto
+
+73
+00:02:08,533 --> 00:02:09,433
+en el mundo IT
+
+74
+00:02:09,500 --> 00:02:10,933
+y de seguir capacitándome
+
+75
+00:02:10,933 --> 00:02:12,366
+hasta lograr este segundo objetivo
+
+76
+00:02:12,500 --> 00:02:13,266
+y después también
+
+77
+00:02:13,266 --> 00:02:13,833
+no se crean
+
+78
+00:02:13,833 --> 00:02:15,433
+no se termina nunca la capacitación acá
+
+79
+00:02:15,466 --> 00:02:16,300
+como tercer objetivo
+
+80
+00:02:16,366 --> 00:02:17,433
+tenía mudarme solo
+
+81
+00:02:17,500 --> 00:02:19,133
+ya que considero algo esencial en la vida
+
+82
+00:02:19,200 --> 00:02:20,966
+poder sentirte tranquilo y en armonía
+
+83
+00:02:20,966 --> 00:02:22,400
+para poder conectar con uno mismo
+
+84
+00:02:22,400 --> 00:02:23,633
+y desarrollar de una mejor manera 
+
+85
+00:02:25,000 --> 00:02:27,166
+respecto a las acciones que tomé para lograrlos
+
+86
+00:02:27,166 --> 00:02:28,000
+en cuanto al primer objetivo
+
+87
+00:02:28,266 --> 00:02:29,466
+con un enfoque más técnico
+
+88
+00:02:29,566 --> 00:02:31,700
+tomé acciones como definirme 
+en mis horarios de estudio
+
+89
+00:02:31,866 --> 00:02:32,466
+identificar
+
+90
+00:02:32,466 --> 00:02:33,166
+qué partes
+
+91
+00:02:33,166 --> 00:02:34,700
+eran las que más se me dificultaban
+
+92
+00:02:34,700 --> 00:02:35,533
+y reforzarlas
+
+93
+00:02:35,533 --> 00:02:36,766
+haciendo tanto resúmenes
+
+94
+00:02:36,766 --> 00:02:37,266
+escritos
+
+95
+00:02:37,266 --> 00:02:38,366
+ya me queda más que leyendo
+
+96
+00:02:38,466 --> 00:02:39,400
+y pruebas técnicas
+
+97
+00:02:39,400 --> 00:02:39,833
+o test
+
+98
+00:02:39,833 --> 00:02:41,233
+sobre esos temas en específico
+
+99
+00:02:41,233 --> 00:02:42,033
+para el segundo objetivo
+
+100
+00:02:42,233 --> 00:02:43,533
+ya desde la segunda tutoria sobre el PO
+
+101
+00:02:43,800 --> 00:02:44,600
+que estoy tomando acción
+
+102
+00:02:44,700 --> 00:02:45,400
+como por ejemplo
+
+103
+00:02:45,500 --> 00:02:47,433
+creando páginas para mi
+portfolio en github
+
+104
+00:02:47,433 --> 00:02:49,466
+participando y creando comunidad en LinkedIn
+
+105
+00:02:49,466 --> 00:02:52,133
+buscando ofertas de trabajo 
+para trainee o entry level
+
+106
+00:02:52,133 --> 00:02:53,133
+en diferentes sitios
+
+107
+00:02:53,200 --> 00:02:54,100
+e intentando en general
+
+108
+00:02:54,166 --> 00:02:56,266
+generar conexiones sociales en el mundo IT
+
+109
+00:02:56,266 --> 00:02:57,133
+que también son una parte
+
+110
+00:02:57,166 --> 00:02:58,633
+muy importante de este trabajo
+
+111
+00:02:58,666 --> 00:02:59,533
+y de nuestra vida
+
+112
+00:02:59,533 --> 00:03:00,300
+en general
+
+113
+00:03:00,466 --> 00:03:01,233
+para ir cerrando
+
+114
+00:03:01,333 --> 00:03:03,266
+creo que las competencias transversales son
+
+115
+00:03:03,366 --> 00:03:04,433
+y lo serán cada vez más
+
+116
+00:03:04,433 --> 00:03:05,000
+una materia
+
+117
+00:03:05,000 --> 00:03:07,500
+muy necesaria para lo 
+que es hoy en día la sociedad
+
+118
+00:03:07,566 --> 00:03:09,433
+tanto como para IT como para otras ramas
+
+119
+00:03:09,433 --> 00:03:10,133
+de trabajo
+
+120
+00:03:10,266 --> 00:03:12,000
+en especial la que se necesita
+
+121
+00:03:12,000 --> 00:03:12,700
+trabajo en equipo
+
+122
+00:03:12,833 --> 00:03:13,833
+mantener un bien ambiente
+
+123
+00:03:13,966 --> 00:03:15,133
+y una comunicación efectiva
+
+124
+00:03:15,166 --> 00:03:16,066
+como final final
+
+125
+00:03:16,166 --> 00:03:17,433
+les voy a contar la idea
+
+126
+00:03:17,600 --> 00:03:19,600
+bueno lo lo que me di cuenta o se me ocurrió
+
+127
+00:03:19,766 --> 00:03:21,966
+cuando releía mi proyecto ocupacional
+
+128
+00:03:21,966 --> 00:03:23,066
+y fue que al ver y
+
+129
+00:03:23,100 --> 00:03:24,166
+releer mis objetivos
+
+130
+00:03:24,166 --> 00:03:25,233
+me di cuenta que los había
+
+131
+00:03:25,400 --> 00:03:27,500
+fijado de una manera muy muy rígida
+
+132
+00:03:27,500 --> 00:03:29,633
+ya que tenía que cumplir uno para que se cumpla el otro
+
+133
+00:03:29,766 --> 00:03:30,900
+y para que se cumpla el otro
+
+134
+00:03:30,900 --> 00:03:33,666
+y es que en realidad quizá podía cambiarlos
+
+135
+00:03:33,666 --> 00:03:35,766
+y por tirar un ejemplo mudarme
+
+136
+00:03:35,766 --> 00:03:37,300
+podia ser el primer paso
+
+137
+00:03:37,400 --> 00:03:38,100
+y el que diera
+
+138
+00:03:38,333 --> 00:03:39,333
+pie a los demás
+
+139
+00:03:39,366 --> 00:03:40,066
+para resumir
+
+140
+00:03:40,166 --> 00:03:41,166
+no hagan caso a las ideas locas
+
+141
+00:03:41,300 --> 00:03:43,300
+me confirmaron hace unos 
+días un trabajo de temporada
+
+142
+00:03:43,400 --> 00:03:44,566
+mismo que yo había hecho el año pasado
+
+143
+00:03:44,566 --> 00:03:46,000
+toda la temporada sin faltar un día
+
+144
+00:03:46,066 --> 00:03:46,866
+y dije bueno
+
+145
+00:03:47,100 --> 00:03:47,900
+es el momento para mudarme
+
+146
+00:03:48,033 --> 00:03:50,500
+y empezar a hacer correr 
+este proyecto ocupacional
+
+147
+00:03:50,500 --> 00:03:50,966
+bueno
+
+148
+00:03:50,966 --> 00:03:52,900
+me despido a los 5 días sin una causa
+(que me hayan dicho)
+
+149
+00:03:53,266 --> 00:03:54,100
+y sin previo aviso
+
+150
+00:03:54,300 --> 00:03:54,966
+hasta el día de hoy no
+
+151
+00:03:55,000 --> 00:03:55,600
+no sé qué pasó
+
+152
+00:03:55,600 --> 00:03:57,966
+así que ahora me quedé sin
+trabajo pero con un cuarto nuevo
+
+153
+00:03:58,133 --> 00:03:59,166
+y todas las ganas de programar
+
+154
+00:03:59,266 --> 00:04:00,133
+más prendidas que nunca
+
+155
+00:04:00,233 --> 00:04:00,833
+ahora sí
+
+156
+00:04:00,833 --> 00:04:01,433
+el final real
+
+157
+00:04:01,433 --> 00:04:02,666
+los planes son muy importantes
+
+158
+00:04:02,766 --> 00:04:04,000
+pero tampoco hay que desesperarse
+
+159
+00:04:04,066 --> 00:04:05,600
+porque a veces la vida hace 
+lo que quiere con ellos
+
+160
+00:04:05,800 --> 00:04:06,433
+y hay que amoldarse
+
+161
+00:04:06,600 --> 00:04:07,566
+también improvisar un poco
+
+162
+00:04:07,633 --> 00:04:08,433
+ustedes me preguntarán
+
+163
+00:04:08,600 --> 00:04:09,333
+valió la pena
+
+164
+00:04:09,366 --> 00:04:10,033
+y yo les diré
+
+165
+00:04:10,033 --> 00:04:12,200
+ha valido cada maldito segundo
+
+166
+00:04:13,700 --> 00:04:16,666
+y como queriamos usar los 5 minutos
+
+167
+00:04:17,533 --> 00:04:19,933
+aca van saludos
+
+168
+00:04:20,200 --> 00:04:22,433
+a guille y paula
+
+169
+00:04:25,333 --> 00:04:28,033
+a mis compañeros del 266
+
+170
+00:04:28,866 --> 00:04:31,633
+y mención especial 
+
+171
+00:04:32,033 --> 00:04:34,166
+al equipo 6
+
+172
+00:04:34,633 --> 00:04:37,666
+sin ellos no habria sido posible
+
+173
+00:04:38,666 --> 00:04:41,733
+ahora solo disfruten 
+
+174
+00:04:42,333 --> 00:04:45,266
+de esta de obra de arte 
+
+175
+00:04:45,800 --> 00:04:48,466
+por 10 segundos más
+
+176
+00:04:51,600 --> 00:04:54,933
+bueno, eran 20 segundos más
+
+177
+00:04:22,433 --> 00:04:24,700
+porque son crack en lo que hacen
+
