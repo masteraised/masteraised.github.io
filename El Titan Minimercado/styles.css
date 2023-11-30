@@ -1,0 +1,33 @@
+#divLanding {
+
+    background-repeat: no-repeat;
+    background: linear-gradient(to right, #263a26d9, transparent),
+        url(https://lh3.googleusercontent.com/p/AF1QipMgXu7Cjp551Z3FzgCIFyQTR8oTTDZXjmQ2QAi6=s1360-w1360-h1020);
+}
+
+#bodychange {
+    font-family: 'Noto sans', sans-serif;
+}
+
+footer {
+    background-color: #042843;
+}
+
+#copyright {
+    background-color: #042843;
+}
+
+.divTitulo {
+    margin: 30vh 0 0 5vh
+}
+
+.formDiv{
+    background-repeat: no-repeat;
+    background: linear-gradient(to left, #263a26d9, transparent ),
+    url(imgs/piriapolis.png)
+}
+
+
+
+
+
