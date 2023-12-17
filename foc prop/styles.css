@@ -1,3 +1,4 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,900&family=Roboto+Mono:wght@200&display=swap');
 
 @font-face {
@@ -5,37 +6,29 @@
     src: url('BeautyLuxuryRegular.otf');
 }
 
-
-
-
-
-
 /* Default styles for larger screens */
 body {
     background-image: url('img1background.png');
     background-repeat: no-repeat;
     color: rgb(35, 5, 5);
     margin: 0;
-    font-family: 'Roboto Mono',
-        monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
-
-/* Media query for screens smaller than 768px (adjust the breakpoint as needed) */
+/* Responsive query for screens smaller than 768px */
 @media only screen and (max-width: 768px) {
     body {
         background-image: url('img2background.png');
         background-size: cover;
-        /* Adjust the background size property */
     }
 }
 
+/* Layout Styles */
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 50vh;
-    /* Use min-height instead of height to handle small content */
     text-align: center;
     padding-top: 50px;
 }
@@ -50,28 +43,21 @@ body {
     text-align: center;
 }
 
+/* Button Styles */
 button {
     width: 100%;
-    /* Adjust the width as needed */
     box-sizing: border-box;
-    /* Include padding and border in the width calculation */
     background-color: #4A7258;
     color: white;
-    /* Set text color */
     border: none;
-    /* Remove border */
     border-radius: 42px;
-    /* Add border-radius for rounded corners */
     padding: 12px;
-    /* Adjust padding as needed */
     cursor: pointer;
-    font-family: 'Montserrat',
-        sans-serif;
+    font-family: 'Montserrat', sans-serif;
     white-space: nowrap;
-
 }
 
-
+/* Logo Styles */
 .logofp {
     position: relative;
     font-family: BeautyLuxury, sans-serif;
@@ -81,26 +67,21 @@ button {
     margin: 0;
 }
 
+/* Text Styles */
 .properties {
-    font-family: 'Montserrat',
-        sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     letter-spacing: 4.5px;
-
 }
 
+/* Responsive Styles */
 @media only screen and (max-width: 768px) {
     .properties {
-        font-family: 'Montserrat',
-            sans-serif;
-        margin: 0;
-        letter-spacing: 8px;
-
+        letter-spacing: 4.2px;
     }
 }
 
-
-
+/* Header Styles */
 #divLogo {
     position: relative;
     padding-top: 20px;
@@ -110,11 +91,9 @@ button {
 
 .container1 {
     position: relative;
-
 }
 
-
-
+/* Menu Styles */
 .menu-container {
     position: fixed;
     top: 20px;
@@ -122,17 +101,12 @@ button {
     z-index: 1;
 }
 
-
-
 .menu-icon {
     font-size: 48px;
     cursor: pointer;
     content: '';
     display: block;
-
 }
-
-
 
 .menu {
     display: none;
@@ -157,6 +131,7 @@ button {
 #menu-toggle:checked+.menu-icon+.menu {
     display: block;
 }
+
 
 input[type="checkbox"] {
     display: none;
