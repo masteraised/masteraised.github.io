@@ -3,8 +3,28 @@
 
 @font-face {
     font-family: BeautyLuxury;
-    src: url('BeautyLuxuryRegular.otf');
+    src: url('BeautyLuxuryRegular.woff');
+
 }
+
+
+/* Logo Styles */
+.logofp {
+    position: relative;
+    font-family: BeautyLuxury, sans-serif;
+    font-size: 8vh;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0;
+
+
+}
+
+.letterS {
+    font-feature-settings: "liga" 0;
+}
+
+
 
 /* Default styles for larger screens */
 body {
@@ -57,27 +77,21 @@ button {
     white-space: nowrap;
 }
 
-/* Logo Styles */
-.logofp {
-    position: relative;
-    font-family: BeautyLuxury, sans-serif;
-    font-size: 8vh;
-    display: inline-block;
-    white-space: nowrap;
-    margin: 0;
-}
+
 
 /* Text Styles */
 .properties {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    letter-spacing: 4.5px;
+    letter-spacing: 4px;
+    font-size: 2.3vh;
 }
 
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
     .properties {
-        letter-spacing: 4.2px;
+        letter-spacing: 4px;
+      
     }
 }
 
