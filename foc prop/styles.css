@@ -118,7 +118,7 @@ button {
     margin: -15px 1px
 }
 
-.blockText{
+.blockText {
     padding-top: 8vh;
 }
 
@@ -168,24 +168,43 @@ button {
 }
 
 .Appraisal {
-    padding-top: 100px;
-    margin-left: 60vh;
-    margin-right: 60vh;
+    height: 50vh;
+    padding-top: 20vh;
+    padding-left: 5vh;
 }
 
+
 .Selling {
-    padding-top: 280px;
-    margin-left: 60vh;
-    margin-right: 60vh;
+    height: 50vh;
+    padding-top: 100vh;
+    padding-left: 5vh;
 }
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+
+    .Appraisal,
+    .Selling {
+        font-size: 55px;
+        cursor: pointer;
+        content: '';
+        display: block;
+        height: 35vh;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-top: 20vh;
+    }
+}
+
+
 
 .header-container {
     background-color: red;
 }
 
 
-
-#block1 {
+.blockimgs #block1 {
 
     background-size: cover;
     height: 70vh;
@@ -260,5 +279,6 @@ input[type="checkbox"] {
 }
 
 #ending {
-    padding: 2vh;
+    padding-top: 160vh;
+    padding-bottom: 3vh;
 }
