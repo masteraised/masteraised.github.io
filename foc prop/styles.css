@@ -4,9 +4,7 @@
 @font-face {
     font-family: BeautyLuxury;
     src: url('BeautyLuxuryRegular.woff');
-
 }
-
 
 /* Logo Styles */
 .logofp {
@@ -16,15 +14,11 @@
     display: inline-block;
     white-space: nowrap;
     margin: 0;
-
-
 }
 
 .letterS {
     font-feature-settings: "liga" 0;
 }
-
-
 
 /* Default styles for larger screens */
 #divLanding {
@@ -33,16 +27,19 @@
     height: 100vh;
 }
 
-
+#headerDiv {
+    background-color: #b2ac95;
+    background-size: cover;
+    height: 15vh;
+    width: 250vh;
+    position: fixed
+}
 
 body {
     font-family: 'Roboto Mono', monospace;
     background-color: #b2ac95;
     margin: 0;
-    /* Reset margin to zero */
     padding: 0;
-    /* Reset padding to zero */
-
 }
 
 h1 {
@@ -58,9 +55,6 @@ h1 {
         background-repeat: no-repeat;
     }
 }
-
-
-
 
 /* Layout Styles */
 .container {
@@ -78,7 +72,6 @@ h1 {
         padding-top: 130px;
     }
 }
-
 
 .row {
     width: 50%;
@@ -105,13 +98,11 @@ button {
     white-space: nowrap;
 }
 
-
 @media only screen and (max-width: 768px) {
     button {
         width: 100%;
     }
 }
-
 
 /* Text Styles */
 .properties {
@@ -127,43 +118,38 @@ button {
 @media only screen and (max-width: 768px) {
     .properties {
         letter-spacing: 0.6vh;
-
     }
 }
-
-
 
 .logo-container {
     position: fixed;
     align-items: start;
     justify-content: start;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 20px;
 }
 
-
-#PropertyAppraisal {
+#PropertyAppraisal,
+#SellingProperty {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: start;
     height: 50vh;
-    /* You may adjust the height as needed */
     margin-left: 60vh;
     margin-right: 60vh;
 }
 
-
-
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
-    #PropertyAppraisal {
+
+    #PropertyAppraisal,
+    #SellingProperty {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: start;
         height: 100vh;
-        /* You may adjust the height as needed */
         margin-left: 4.2vh;
         margin-right: 4.2vh;
         font-size: xx-small;
@@ -171,40 +157,34 @@ button {
 }
 
 .Appraisal {
-    padding-top: 15vh;
-}
-
-
-
-#SellingProperty {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: start;
-    height: 50vh;
-    /* You may adjust the height as needed */
+    padding-top: 100px;
     margin-left: 60vh;
     margin-right: 60vh;
 }
 
-
-/* Responsive Styles */
-@media only screen and (max-width: 768px) {
-    #SellingProperty {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: start;
-        height: 100vh;
-        /* You may adjust the height as needed */
-        margin-left: 4.2vh;
-        margin-right: 4.2vh;
-        font-size: xx-small;
-    }
+.Selling {
+    padding-top: 280px;
+    margin-left: 60vh;
+    margin-right: 60vh;
 }
 
-.Selling {
-  
+.header-container {
+    background-color: red;
+}
+
+
+
+#block1 {
+
+    background-size: cover;
+    height: 70vh;
+}
+
+#block2 {
+
+    background-size: cover;
+    height: 70vh;
+    margin-bottom: 20vh;
 }
 
 
@@ -231,11 +211,9 @@ button {
         cursor: pointer;
         content: '';
         display: block;
-        margin: -4px 1px
+        margin: -4px 1px;
     }
 }
-
-
 
 .menu {
     display: none;
@@ -261,7 +239,6 @@ button {
     display: block;
 }
 
-
 input[type="checkbox"] {
     display: none;
 }
@@ -269,4 +246,8 @@ input[type="checkbox"] {
 .ending {
     padding-top: 25vh;
     text-align: center;
+}
+
+#ending {
+    padding: 2vh;
 }
