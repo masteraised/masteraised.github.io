@@ -27,21 +27,40 @@
 
 
 /* Default styles for larger screens */
+#divLanding {
+    background-image: url('imgs/img1background.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
 body {
-    background-image: url('img1background.png');
-    background-repeat: no-repeat;
-    color: rgb(35, 5, 5);
-    margin: 0;
     font-family: 'Roboto Mono', monospace;
+    background-color: #b2ac95;
+    margin: 0;
+    /* Reset margin to zero */
+    padding: 0;
+    /* Reset padding to zero */
+
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Responsive query for screens smaller than 768px */
 @media only screen and (max-width: 768px) {
-    body {
-        background-image: url('img2background.png');
+    #divLanding {
+        background-image: url('imgs/img2background.png');
         background-size: cover;
+        background-repeat: no-repeat;
     }
 }
+
+
+
 
 /* Layout Styles */
 .container {
@@ -50,8 +69,16 @@ body {
     justify-content: center;
     min-height: 50vh;
     text-align: center;
-    padding-top: 125px;
+    padding-top: 170px;
 }
+
+/* Responsive query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding-top: 130px;
+    }
+}
+
 
 .row {
     width: 50%;
@@ -65,18 +92,25 @@ body {
 
 /* Button Styles */
 button {
-    width: 100%;
+    width: 35%;
     box-sizing: border-box;
     background-color: #4A7258;
     color: white;
     border: none;
     border-radius: 42px;
     padding: 12px;
+    margin-top: 10px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     white-space: nowrap;
 }
 
+
+@media only screen and (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+}
 
 
 /* Text Styles */
@@ -86,7 +120,7 @@ button {
     margin: 0;
     letter-spacing: 4px;
     font-size: 2.3vh;
-   margin: -15px 1px
+    margin: -15px 1px
 }
 
 /* Responsive Styles */
@@ -100,12 +134,80 @@ button {
 
 
 .logo-container {
-    position: absolute;
+    position: fixed;
     align-items: start;
     justify-content: start;
     padding-top: 25px;
     padding-left: 20px;
 }
+
+
+#PropertyAppraisal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    height: 50vh;
+    /* You may adjust the height as needed */
+    margin-left: 60vh;
+    margin-right: 60vh;
+}
+
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    #PropertyAppraisal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        height: 100vh;
+        /* You may adjust the height as needed */
+        margin-left: 4.2vh;
+        margin-right: 4.2vh;
+        font-size: xx-small;
+    }
+}
+
+.Appraisal {
+    padding-top: 15vh;
+}
+
+
+
+#SellingProperty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    height: 50vh;
+    /* You may adjust the height as needed */
+    margin-left: 60vh;
+    margin-right: 60vh;
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    #SellingProperty {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        height: 100vh;
+        /* You may adjust the height as needed */
+        margin-left: 4.2vh;
+        margin-right: 4.2vh;
+        font-size: xx-small;
+    }
+}
+
+.Selling {
+  
+}
+
+
 
 /* Menu Styles */
 .menu-container {
@@ -121,6 +223,19 @@ button {
     content: '';
     display: block;
 }
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .menu-icon {
+        font-size: 55px;
+        cursor: pointer;
+        content: '';
+        display: block;
+        margin: -4px 1px
+    }
+}
+
+
 
 .menu {
     display: none;
@@ -149,4 +264,9 @@ button {
 
 input[type="checkbox"] {
     display: none;
+}
+
+.ending {
+    padding-top: 25vh;
+    text-align: center;
 }
