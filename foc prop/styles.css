@@ -120,6 +120,8 @@ button {
 
 .blockText {
     padding-top: 8vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
 
 
@@ -190,7 +192,7 @@ button {
         cursor: pointer;
         content: '';
         display: block;
-        height: 35vh;
+        height: 28vh;
         padding-top: 0px;
         padding-left: 0px;
         padding-top: 20vh;
