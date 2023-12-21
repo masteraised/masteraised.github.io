@@ -376,7 +376,7 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 768px) {
     #divFindProperty {
-        margin-top: 250vh;
+        margin-top: 300vh;
         align-items: start;
         width: 60%;
         position: absolute;
