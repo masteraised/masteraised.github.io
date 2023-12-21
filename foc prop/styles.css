@@ -119,12 +119,7 @@ button {
     margin: -15px 1px
 }
 
-.blockText {
-    padding-top: 8vh;
-    margin-left: 5vh;
-    margin-right: 5vh;
-font-weight: 350;
-}
+
 
 
 /* Responsive Styles */
@@ -144,17 +139,7 @@ font-weight: 350;
     padding-left: 20px;
 }
 
-#PropertyAppraisal,
-#SellingProperty,
-#FindYourProperty {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: start;
-    height: 50vh;
-    margin-left: 60vh;
-    margin-right: 60vh;
-}
+
 
 #FindYourProperty {
     margin-top: 200vh;
@@ -168,38 +153,21 @@ font-weight: 350;
 }
 
 
-/* Responsive Styles */
+.blockText {
+    font-weight: 200;
+    display: flex;
+    margin-left: 40vh;
+    margin-right: 40vh;
+}
+
 @media only screen and (max-width: 768px) {
-
-    #PropertyAppraisal,
-    #SellingProperty,
-    #FindYourProperty {
+    .blockText {
+        font-weight: 200;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: start;
-        height: 100vh;
-        margin-left: 4.2vh;
-        margin-right: 4.2vh;
-        font-size: xx-small;
-
+        margin-left: 72vh;
+        margin-right: 72vh;
     }
 }
-
-.Appraisal {
-    height: 50vh;
-    padding-top: 20vh;
-    padding-left: 5vh;
-}
-
-
-.Selling {
-    height: 50vh;
-    padding-top: 100vh;
-    padding-left: 5vh;
-
-}
-
 
 
 .flex-container {
@@ -226,10 +194,12 @@ font-weight: 350;
 
 
 
-
+#divPropertyAppraisal,
+#divSellingProperty {
+    margin-top: 10vh;
+}
 
 .buttonFindProperty {
-
     width: 35%;
     box-sizing: border-box;
     background-color: #4A7258;
@@ -238,29 +208,37 @@ font-weight: 350;
     border-radius: 42px;
     padding: 12px;
     margin-top: 10px;
-
     font-family: 'Montserrat', sans-serif;
     white-space: nowrap;
 }
 
 
-
+.Appraisal,
+.Selling {
+    height: 50vh;
+    margin-left: 70vh;
+    margin-right: 70vh;
+}
 
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
 
     .Appraisal,
     .Selling {
-        font-size: 55px;
+
+        height: 25vh;
         cursor: pointer;
         content: '';
         display: block;
-        height: 18vh;
-        padding-top: 0px;
-        padding-left: 3vh;
-        padding-top: 20vh;
+
     }
 }
+
+
+
+
+
+
 
 
 
@@ -269,18 +247,13 @@ font-weight: 350;
 }
 
 
-.blockimgs #block1 {
+.blockimgs #block1 #block2 {
     background-size: cover;
     height: 70vh;
 
 }
 
-#block2 {
 
-    background-size: cover;
-    height: 70vh;
-    margin-bottom: 20vh;
-}
 
 .itemFind {
     display: flex;
@@ -374,19 +347,45 @@ input[type="checkbox"] {
 }
 
 #ending {
-    padding-top: 250vh;
+    padding-top: 10vh;
     padding-bottom: 3vh;
 }
 
+
+#sections {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
 #divFindProperty {
-    margin-top: 360vh;
+    margin-top: 330vh;
     align-items: start;
-    width: 50%;
+    width: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #divFindProperty {
+        margin-top: 250vh;
+        align-items: start;
+        width: 60%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+    }
+
 }
 
 
@@ -423,12 +422,14 @@ input[type="checkbox"] {
     width: 25%;
     margin-bottom: 1%;
     margin-left: 5%;
+
 }
 
 @media only screen and (max-width: 768px) {
     .buttonFind {
         height: 3.5%;
-        width: 5vh;
+        width: 25vh;
+        margin-top: 0vh;
         margin-bottom: 1%;
         margin-left: 5%;
     }
