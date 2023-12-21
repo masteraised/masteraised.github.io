@@ -36,7 +36,8 @@
     background-size: cover;
     height: 15vh;
     width: 250vh;
-    position: fixed
+    position: fixed;
+    z-index: 9999;
 }
 
 body {
@@ -122,6 +123,7 @@ button {
     padding-top: 8vh;
     margin-left: 5vh;
     margin-right: 5vh;
+font-weight: 350;
 }
 
 
@@ -132,6 +134,8 @@ button {
     }
 }
 
+
+
 .logo-container {
     position: fixed;
     align-items: start;
@@ -141,7 +145,8 @@ button {
 }
 
 #PropertyAppraisal,
-#SellingProperty {
+#SellingProperty,
+#FindYourProperty {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,14 +154,26 @@ button {
     height: 50vh;
     margin-left: 60vh;
     margin-right: 60vh;
-
 }
+
+#FindYourProperty {
+    margin-top: 200vh;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    #FindYourProperty {
+        margin-top: 35vh;
+    }
+}
+
 
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
 
     #PropertyAppraisal,
-    #SellingProperty {
+    #SellingProperty,
+    #FindYourProperty {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -180,7 +197,53 @@ button {
     height: 50vh;
     padding-top: 100vh;
     padding-left: 5vh;
+
 }
+
+
+
+.flex-container {
+    display: flex;
+    margin-top: 170vh;
+    margin-left: 80vh;
+    margin-right: 60vh;
+    letter-spacing: 50px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .flex-container {
+        display: flex;
+        margin-top: 1vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+        white-space: nowrap;
+        letter-spacing: 10px;
+    }
+}
+
+
+
+
+
+
+
+.buttonFindProperty {
+
+    width: 35%;
+    box-sizing: border-box;
+    background-color: #4A7258;
+    color: white;
+    border: none;
+    border-radius: 42px;
+    padding: 12px;
+    margin-top: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+}
+
+
 
 
 /* Responsive Styles */
@@ -192,9 +255,9 @@ button {
         cursor: pointer;
         content: '';
         display: block;
-        height: 28vh;
+        height: 18vh;
         padding-top: 0px;
-        padding-left: 0px;
+        padding-left: 3vh;
         padding-top: 20vh;
     }
 }
@@ -207,9 +270,9 @@ button {
 
 
 .blockimgs #block1 {
-
     background-size: cover;
     height: 70vh;
+
 }
 
 #block2 {
@@ -218,6 +281,19 @@ button {
     height: 70vh;
     margin-bottom: 20vh;
 }
+
+.itemFind {
+    display: flex;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    background-size: cover;
+    height: 15vh;
+
+
+}
+
+
+
 
 
 
@@ -245,6 +321,23 @@ button {
         display: block;
         margin: -4px 1px;
     }
+}
+
+.centered-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: space-around;
+}
+
+.centered-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 10px;
+    /* Optional: Add some spacing between image and text */
+
 }
 
 .menu {
@@ -281,6 +374,85 @@ input[type="checkbox"] {
 }
 
 #ending {
-    padding-top: 160vh;
+    padding-top: 250vh;
     padding-bottom: 3vh;
+}
+
+#divFindProperty {
+    margin-top: 360vh;
+    align-items: start;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+
+.category {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+
+
+/* Responsive query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    .category {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+}
+
+.divCategory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.buttonFind {
+    height: 3.5%;
+    width: 25%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .buttonFind {
+        height: 3.5%;
+        width: 5vh;
+        margin-bottom: 1%;
+        margin-left: 5%;
+    }
+}
+
+
+
+
+.itemInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: x-small;
+    letter-spacing: 0px;
+    margin-top: 1vh;
+
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5vh;
+    white-space: nowrap;
 }
