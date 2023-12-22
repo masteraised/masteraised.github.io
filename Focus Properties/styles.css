@@ -253,7 +253,7 @@ input[type="checkbox"] {
     display: grid;
     place-items: center;
     margin-top: 20px;
-width: 20vh;
+    width: 20vh;
 }
 
 @media only screen and (max-width: 768px) {
@@ -273,7 +273,10 @@ h1 {
     font-weight: 400;
     font-size: medium;
     margin-top: 5vh;
+    font-family: 'Montserrat', sans-serif;
 }
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -281,6 +284,7 @@ h1 {
         width: 90%;
         font-weight: 350;
         font-size: medium;
+        font-family: 'Montserrat', sans-serif;
     }
 }
 
@@ -310,5 +314,8 @@ h1 {
     color: rgb(10, 156, 10);
     display: flex;
     justify-content: center;
+   align-items: center;
     margin-top: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-small;
 }
