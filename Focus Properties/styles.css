@@ -7,9 +7,6 @@
     src: url('BeautyLuxuryRegular.woff');
 }
 
-
-
-
 /* Logo Styles */
 .logofp {
     position: relative;
@@ -119,17 +116,12 @@ button {
     margin: -15px 1px
 }
 
-
-
-
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
     .properties {
         letter-spacing: 0.6vh;
     }
 }
-
-
 
 .logo-container {
     position: fixed;
@@ -138,136 +130,6 @@ button {
     padding-top: 20px;
     padding-left: 20px;
 }
-
-
-
-#FindYourProperty {
-    margin-top: 200vh;
-}
-
-/* Responsive Styles */
-@media only screen and (max-width: 768px) {
-    #FindYourProperty {
-        margin-top: 35vh;
-    }
-}
-
-
-.blockText {
-    font-weight: 200;
-    display: flex;
-    margin-left: 40vh;
-    margin-right: 40vh;
-}
-
-@media only screen and (max-width: 768px) {
-    .blockText {
-        font-weight: 200;
-        display: flex;
-        margin-left: 72vh;
-        margin-right: 72vh;
-    }
-}
-
-
-.flex-container {
-    display: flex;
-    margin-top: 170vh;
-    margin-left: 80vh;
-    margin-right: 60vh;
-    letter-spacing: 50px;
-}
-
-/* Responsive Styles */
-@media only screen and (max-width: 768px) {
-    .flex-container {
-        display: flex;
-        margin-top: 1vh;
-        margin-left: 4vh;
-        margin-right: 4vh;
-        white-space: nowrap;
-        letter-spacing: 10px;
-    }
-}
-
-
-
-
-
-#divPropertyAppraisal,
-#divSellingProperty {
-    margin-top: 10vh;
-}
-
-.buttonFindProperty {
-    width: 35%;
-    box-sizing: border-box;
-    background-color: #4A7258;
-    color: white;
-    border: none;
-    border-radius: 42px;
-    padding: 12px;
-    margin-top: 10px;
-    font-family: 'Montserrat', sans-serif;
-    white-space: nowrap;
-}
-
-
-.Appraisal,
-.Selling {
-    height: 50vh;
-    margin-left: 70vh;
-    margin-right: 70vh;
-}
-
-/* Responsive Styles */
-@media only screen and (max-width: 768px) {
-
-    .Appraisal,
-    .Selling {
-
-        height: 25vh;
-        cursor: pointer;
-        content: '';
-        display: block;
-
-    }
-}
-
-
-
-
-
-
-
-
-
-.header-container {
-    background-color: red;
-}
-
-
-.blockimgs #block1 #block2 {
-    background-size: cover;
-    height: 70vh;
-
-}
-
-
-
-.itemFind {
-    display: flex;
-    margin-left: 10vh;
-    margin-top: 5vh;
-    background-size: cover;
-    height: 15vh;
-
-
-}
-
-
-
-
 
 
 /* Menu Styles */
@@ -309,8 +171,6 @@ button {
     height: auto;
     margin-top: 30px;
     margin-right: 10px;
-    /* Optional: Add some spacing between image and text */
-
 }
 
 .menu {
@@ -341,119 +201,114 @@ input[type="checkbox"] {
     display: none;
 }
 
-.ending {
+#ending {
     padding-top: 25vh;
     text-align: center;
+    padding-bottom: 2.5vh;
 }
 
-#ending {
-    padding-top: 10vh;
-    padding-bottom: 3vh;
-}
-
-
-#sections {
-    margin-top: 10vh;
+#PropertyAppraisal,
+#SellingProperty {
     display: flex;
+    align-items: center;
+    width: 100%;
     flex-direction: column;
-    align-items: center;
+    margin-top: 15vh;
+}
+
+#FindYourProperty {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    width: 100%;
-
+    margin-top: 10vh;
+    align-items: center;
+    margin-right: 25%;
+    margin-left: 25%;
 }
-
-#divFindProperty {
-    margin-top: 330vh;
-    align-items: start;
-    width: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-}
-
 
 @media only screen and (max-width: 768px) {
-    #divFindProperty {
-        margin-top: 300vh;
-        align-items: start;
-        width: 60%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 10px;
-    }
-
-}
-
-
-.category {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2vh;
-}
-
-
-
-/* Responsive query for screens smaller than 768px */
-@media only screen and (max-width: 768px) {
-    .category {
-        width: 100%;
+    #FindYourProperty {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2vh;
+        flex-direction: column;
+        width: auto;
+        white-space: nowrap;
+
+
     }
 }
 
-.divCategory {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+@media only screen and (max-width: 768px) {
+    .grid-item {
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
 }
 
+
+
+.centerImg,
+.centerButton {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+width: 20vh;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .centerImg,
+    .centerButton {
+        display: inline-flex;
+
+
+    }
+}
+
+
+
+h1 {
+    width: 50%;
+    font-weight: 400;
+    font-size: medium;
+    margin-top: 5vh;
+}
+
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        width: 90%;
+        font-weight: 350;
+        font-size: medium;
+    }
+}
 
 .buttonFind {
-    height: 3.5%;
-    width: 25%;
-    margin-bottom: 1%;
-    margin-left: 5%;
-
+    width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
     .buttonFind {
-        height: 3.5%;
-        width: 25vh;
-        margin-top: 0vh;
-        margin-bottom: 1%;
-        margin-left: 5%;
+        width: 100%;
     }
 }
 
-
-
-
-.itemInfo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: green;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: x-small;
-    letter-spacing: 0px;
-    margin-top: 1vh;
-
+.blockImgs {
+    width: 50%;
+    height: auto;
 }
 
-.align {
+@media only screen and (max-width: 768px) {
+    .blockImgs {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#infoBuy {
+    color: rgb(10, 156, 10);
     display: flex;
-    align-items: center;
-    margin-left: 1.5vh;
-    white-space: nowrap;
+    justify-content: center;
+    margin-top: 5vh;
 }
