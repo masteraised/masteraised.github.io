@@ -319,3 +319,43 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: xx-small;
 }
+
+#ContactUs {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+@media only screen and (max-width: 768px) {
+    #ContactUs {
+        font-family: 'Montserrat', sans-serif;
+        font-size: small;
+        margin-top: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+
+#buttonContact {
+    background-color: #4A7258;
+    border-radius: 12px;
+    width: 20vh;
+    color: white;
+}
+
+.inputContact {
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.pContact{
+    font-size: larger;
+}
