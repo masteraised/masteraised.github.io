@@ -466,7 +466,7 @@ h1 {
 .disclaimer {
     text-align: center;
     font-size: larger;
-    color: #212427.
+    color: #212427;
 }
 
 .divInfo {
@@ -515,6 +515,20 @@ h1 {
 .img2 {
     background-color: whitesmoke;
     width: 80%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .infoChamber {
+        flex: 3;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .infoChamber2 {
+        flex: 1;
+    }
 }
 
 .uyNatural {
