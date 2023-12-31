@@ -11,25 +11,19 @@
 <body>
 
     <div id="headerDiv">
-        <div class="header-container">
-            <div class="container1">
-                <div class="row">
-                    <div class="logo-container col">
-                        <p class="logofp">FOCU<span class="letterS">S</span></p>
-                        <p class="properties">PROPERTIES</p>
-                    </div>
-                    <div>
-                        <div class="menu-container">
-                            <input type="checkbox" id="menu-toggle">
-                            <label for="menu-toggle" class="menu-icon">&#9776;</label>
-                            <div class="menu">
-                                <a href="#">Home</a>
-                                <a href="#">About</a>
-                                <a href="#">Services</a>
-                                <a href="#">Contact</a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="logo-container col">
+                <p class="logofp">FOCU<span class="letterS">S</span></p>
+                <p class="properties">PROPERTIES</p>
+            </div>
+            <div class="menu-container">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
                 </div>
             </div>
         </div>
@@ -166,57 +160,88 @@
 
 
     <section id="ContactUs">
-        <div id="ContactUs">
+        <div id="divContactUs">
             <p class="pContact"> Contact Focus Properties</p>
             <form id="formContact" action="mailto:real_estate@focusproperties.com.uy" method="post"
                 enctype="text/plain">
-                Name:<br>
-                <input class="inputContact" type="text" name="name" required><br>
-                E-mail:<br>
-                <input class="inputContact" type="email" name="mail" required><br>
-                Subject:<br>
-                <input class="inputContact" type="text" name="subject" required><br>
+                <div class="divContact">
+                    <label for="name" class="required">Name:</label><br> <input class="inputContact" type="text"
+                        name="name" required><br>
+                </div>
+                <div class="divContact"> <label for="email" class="required">E-mail:</label><br>
+                    <input class="inputContact" type="email" name="mail" required><br>
+                </div>
+                <div class="divContact"> Subject:<br>
+                    <input class="inputContact" type="text" name="subject" required><br>
+                </div>
 
-                Comment:<br>
-                <textarea class="inputContact" id="emailMessage" name="message" rows="4" cols="25"
-                    required></textarea><br><br>
-                <input id="buttonContact" type="submit" value="Send">
+                <div class="divContact">Comment:<br>
+                    <textarea class="inputTextArea" id="emailMessage" name="message" rows="8" cols="22"
+                        required></textarea>
+                </div><br><br>
+
+                <div id="buttonContactDiv"><input type="submit" id="buttonContact" value="Send"></div>
             </form>
+
+
+
+            <div class="row callUs">
+                <div class="col">
+                    <p>Call Us</p>
+                </div>
+                <div class="col"> <img class="callUsImg" src="imgs/footer/Signal-logo.png" alt=""> </div>
+                <div class="col"> <img class="callUsImg" src="imgs/footer/WhatsApp-Emblem.png" alt=""> </div>
+                <div class="col"> <img class="callUsImg" src="imgs/footer/telegram.png" alt=""> </div>
+            </div>
+        </div>
+
+        <div class="row calls">
+            <div class="col colCalls">
+                <p>International Calls <br>
+                    +598 9559 2329</p>
+            </div>
+            <div class="col colCalls">
+                <p>Local Calls <br>
+                    095 592 329</p>
+
+            </div>
+        </div>
+
+
     </section>
 
-    <section id="ContactUs">
-        <div id="ContactUs">
-            <p class="pContact"> Contact Focus Properties</p>
-            <form id="formContact" action="mailto:real_estate@focusproperties.com.uy" method="post"
-                enctype="text/plain">
-                Name:<br>
-                <input class="inputContact" type="text" name="name" required><br>
-                E-mail:<br>
-                <input class="inputContact" type="email" name="mail" required><br>
-                Subject:<br>
-                <input class="inputContact" type="text" name="subject" required><br>
-
-                Comment:<br>
-                <textarea class="inputContact" id="emailMessage" name="message" rows="4" cols="25"
-                    required></textarea><br><br>
-                <input id="buttonContact" type="submit" value="Send">
-            </form>
-    </section>
+    <br>
 
 
 
+    <footer id="footerInfo">
+        <div class="row divInfo">
+            <div class="col infoDisclaimer">
+                <div class="disclaimer">Disclaimer:</div>
+                The information presented on this site is provided by the owner and
+                should be verified before making any decision based on it. Focus Properties does not warrant that
+                the
+                information is entirely factual.
+            </div>
+            <div class="chamberRealEstate">
+                <div class="col infoChamber">Focus Properties is a member of the Association of Real Estate Agencies of
+                    Punta del Este</div>
+                <div class="col infoChamber2"><img class="img1" src="imgs/footer/camara inmobiliaria.png" alt=""> </div>
+            </div>
+            <div class="uruguayNatural">
+                <div class="col uyNatural">Focus Properties is a member of the Association of Real Estate Agencies of
+                    Punta del Este</div>
+                <div class="col uyNatural2"><img class="img2" src="imgs/footer/uruguay-natural.png" alt=""> </div>
+            </div>
 
 
-
-
-
-
-    <footer>
-        <div id="ending">
-            Copyright Focus Properties © Made by @SalvadorWebDev
         </div>
-        </div>
+     
+        <div id="copyright">Copyright Focus Properties 2023 © SalvadorWebDev</div>
+
     </footer>
+
+
 
 
 </body>

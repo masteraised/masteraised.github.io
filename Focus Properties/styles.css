@@ -1,5 +1,4 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,900&family=Roboto+Mono:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,500;1,900&family=Roboto+Mono:wght@200&display=swap');
 
 @font-face {
@@ -28,13 +27,15 @@
     height: 100vh;
 }
 
-#headerDiv {
-    background-color: #b2ac95;
-    background-size: cover;
-    height: 15vh;
-    width: 250vh;
-    position: fixed;
-    z-index: 9999;
+@media only screen and (max-width: 768px) {
+    #headerDiv {
+        background-color: #b2ac95;
+        background-size: cover;
+        height: 14vh;
+        width: 250vh;
+        position: fixed;
+        z-index: 9999;
+    }
 }
 
 body {
@@ -45,7 +46,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -77,6 +78,7 @@ h1 {
 
 .row {
     width: 50%;
+
 }
 
 .col {
@@ -90,7 +92,7 @@ button {
     width: 35%;
     box-sizing: border-box;
     background-color: #4A7258;
-    color: white;
+    color: whitesmoke;
     border: none;
     border-radius: 42px;
     padding: 12px;
@@ -113,7 +115,7 @@ button {
     margin: 0;
     letter-spacing: 4px;
     font-size: 2.3vh;
-    margin: -15px 1px
+    margin: -15px 1px;
 }
 
 /* Responsive Styles */
@@ -130,7 +132,6 @@ button {
     padding-top: 20px;
     padding-left: 20px;
 }
-
 
 /* Menu Styles */
 .menu-container {
@@ -201,12 +202,6 @@ input[type="checkbox"] {
     display: none;
 }
 
-#ending {
-    padding-top: 25vh;
-    text-align: center;
-    padding-bottom: 2.5vh;
-}
-
 #PropertyAppraisal,
 #SellingProperty {
     display: flex;
@@ -232,11 +227,8 @@ input[type="checkbox"] {
         flex-direction: column;
         width: auto;
         white-space: nowrap;
-
-
     }
 }
-
 
 @media only screen and (max-width: 768px) {
     .grid-item {
@@ -245,8 +237,6 @@ input[type="checkbox"] {
         justify-content: center;
     }
 }
-
-
 
 .centerImg,
 .centerButton {
@@ -261,12 +251,8 @@ input[type="checkbox"] {
     .centerImg,
     .centerButton {
         display: inline-flex;
-
-
     }
 }
-
-
 
 h1 {
     width: 50%;
@@ -275,9 +261,6 @@ h1 {
     margin-top: 5vh;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
 
 @media only screen and (max-width: 768px) {
     h1 {
@@ -320,6 +303,91 @@ h1 {
     font-size: xx-small;
 }
 
+#divContactUs {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    margin-top: 10vh;
+    display: flex;
+    width: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+#buttonContact {
+    background-color: #4A7258;
+    border-radius: 2px;
+    width: 50vh;
+    color: whitesmoke;
+    height: 3.5vh;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #buttonContact {
+        background-color: #4A7258;
+        border-radius: 2px;
+        width: 36vh;
+        color: whitesmoke;
+        height: 3.5vh;
+        padding: 0;
+    }
+}
+
+#buttonContact {
+    margin-top: -15px;
+}
+
+@media only screen and (max-width: 768px) {
+    #divContactUs {
+        font-family: 'Montserrat', sans-serif;
+        font-size: small;
+        margin-top: 10vh;
+        width: 45vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
+    }
+}
+
+.inputContact {
+    border-radius: 3px;
+    width: 50vh;
+    height: 3vh;
+    border-width: 2px;
+    border-color: rgb(221, 221, 221);
+}
+
+.inputTextArea {
+    border-radius: 3px;
+    margin: 0;
+    width: 50vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .inputContact {
+        border-radius: 3px;
+        width: 36vh;
+        height: 3vh;
+        border-width: 2px;
+        border-color: rgb(221, 221, 221);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .inputTextArea {
+        border-radius: 3px;
+        margin: 0;
+        width: 36vh;
+    }
+}
+
+.pContact {
+    font-size: large;
+}
+
 #ContactUs {
     font-family: 'Montserrat', sans-serif;
     font-size: small;
@@ -328,34 +396,134 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: whitesmoke;
+}
 
+.divContact {
+    margin-top: 1vh;
+}
+
+.required::before {
+    content: '*';
+    color: red;
+    margin-right: 4px;
+}
+
+
+
+
+
+.callUs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5vh;
+    font-size: large;
 }
 
 @media only screen and (max-width: 768px) {
-    #ContactUs {
-        font-family: 'Montserrat', sans-serif;
-        font-size: small;
-        margin-top: 10vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
+    .callUs {
+        width: 50%;
     }
 }
 
-#buttonContact {
-    background-color: #4A7258;
-    border-radius: 12px;
-    width: 20vh;
-    color: white;
-}
-
-.inputContact {
-    border-radius: 5px;
-    margin: 0px;
-}
-
-.pContact{
+.calls {
     font-size: larger;
+    margin-top: 3vh;
+
+}
+
+.colCalls {
+    padding: 0.5px;
+}
+
+#footerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.infoDisclaimer {
+    text-align: left;
+    margin-top: 5vh;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: smaller
+}
+
+
+.info {
+    text-align: left;
+    margin-top: 5vh;
+    background-color: red;
+}
+
+.disclaimer {
+    text-align: center;
+    font-size: larger;
+    color: #212427.
+}
+
+.divInfo {
+    background-color: #333333;
+    width: 100vh;
+    color: #212427;
+    margin-top: 50px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .divInfo {
+        width: 100%;
+    }
+}
+
+.chamberRealEstate {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoChamber {
+    flex: 2.5;
+    text-align: start;
+    color: whitesmoke;
+}
+
+
+
+.infoChamber2 {
+    flex: 1;
+
+}
+
+.img1 {
+
+    width: 100%;
+}
+
+
+.img2 {
+    background-color: whitesmoke;
+    width: 80%;
+}
+
+.uyNatural {
+    margin-top: 25px;
+    text-align: start;
+    color: whitesmoke;
+}
+
+#copyright {
+    margin-top: 8vh;
+    margin-bottom: 1vh;
 }
