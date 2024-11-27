@@ -1,11 +1,41 @@
 #navbar {
     background-image: linear-gradient(to bottom, rgb(0, 71, 171), rgb(0, 71, 171, 0.5));
-    height: 60px;
+    height: auto;
     top: 0px;
     width: 100%;
     text-align: center;
 }
 
+.navbar-brand {
+    flex-grow: 1;
+    white-space: nowrap;
+    /* Evita que el texto se rompa */
+    text-align: left;
+    /* Alinea el texto a la izquierda */
+    margin-right: auto;
+    /* Hace que se alinee todo hacia la izquierda */
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    /* Alinea el texto a la derecha */
+}
+
+.h5 {
+    display: flex;
+    justify-content: flex-end;
+    /* Alinea los elementos hacia la derecha */
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 body {
-    background-color: rgb(45, 61, 76)
+    background-color: rgb(45, 61, 76);
 }
