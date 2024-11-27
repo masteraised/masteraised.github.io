@@ -1,0 +1,11 @@
+#navbar {
+    background-image: linear-gradient(to bottom, rgb(0, 71, 171), rgb(0, 71, 171, 0.5));
+    height: 60px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(45, 61, 76)
+}
